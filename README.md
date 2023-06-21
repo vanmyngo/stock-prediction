@@ -29,6 +29,7 @@ Open notebook in Jupyter Lab and select "Run All Cells" in the upper "Run" tab.
 ### 2.2 Python script
 While Jupyter Notebook(.ipynb) can be converted to python script(.py), there are many plots that might not be printed as originally.
 ### 3. Enjoy!
-You can add more models in the "Train Models" section as you please. I decide to use classifiers since my laptop is not able to train complicated models like Long Short-Term Memory(LSTM) without a GPU. This project is not to demonstrate ML skillset but my ability to analyze data.
+You can add more models in the "Train Models" section as you please. I decide to use classifiers since my laptop is not able to train complicated models like Long Short-Term Memory(LSTM) without a GPU. This project is not to demonstrate ML skillset but my ability to analyze data.  
+***Click on .ipynb in this repo to see the results.***
 # Licenses
 Licenses for third-party libraries used in this project are stored in "Licenses" folder and are named accordingly.
