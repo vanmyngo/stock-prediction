@@ -9,7 +9,7 @@ Python: ```pip list --format=freeze > requirements.txt```
 To install anaconda, follow the instruction on [here](https://docs.anaconda.com/free/anaconda/install/index.html).
 ### 2.1 Anaconda environment
 You can use Jupyer Lab or Notebook but I'm more familiar with Jupyter Lab.  
-Install Jupyter Lab into base environment, if not already by: ```conda install -c conda-forge jupyterlab```.  
+Install Jupyter Lab into base environment, if not already by: ```conda install -c conda-forge jupyterlab```  
 Add conda environment into Jupyter:   
 ```
 (base)$ conda activate cenv
@@ -17,9 +17,12 @@ Add conda environment into Jupyter:
 (cenv)$ ipython kernel install --user --name=<any_name_for_kernel>
 (cenv)$ conda deactivate
 ```
-Open Jupyer Lab: ```(base)$ jupyter lab```.  
+If ipykernel is already installed, add conda environment to Jupyter in the next step.  
+Open Jupyer Lab: ```(base)$ jupyter lab```  
 Open notebook in Jupyter Lab and select "Run All Cells" in the upper "Run" tab.
 ### 2.2 Python script
 While Jupyter Notebook(.ipynb) can be converted to python script(.py), there are many plots that might not be printed as originally.
 ### 3. Enjoy!
 You can add more models in the "Train Models" section as you please. I decide to use classifiers since my laptop is not able to train complicated models like Long Short-Term Memory(LSTM) without a GPU. This project is not to demonstrate ML skillset but my ability to analyze data.
+# Licenses
+Licenses for third-party libraries used in this project are stored in "Licenses" folder and are named accordingly.
