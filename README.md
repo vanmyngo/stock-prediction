@@ -7,10 +7,10 @@ Follow the following steps to set up the virtual environment.
 Clone git repo: `git clone https://github.com/vanmyngo/stock-predictor.git`  
 
 ***Either*** to install anaconda, follow the instruction on [here](https://docs.anaconda.com/free/anaconda/install/index.html).  
-Anaconda: `conda env create -f requirements.yml`  
+Anaconda: `conda env create -f ./stock-predictor/requirements.yml`  
 
 ***Or*** execute below command only after create a [virtual environment](https://docs.python.org/3/library/venv.html), preferably.    
-Python: `pip install -r requirements.txt`  
+Python: `pip install -r ./stock-predictor/requirements.txt`  
 ### 2.1 Anaconda environment
 You can use Jupyer Lab or Notebook but I'm more familiar with Jupyter Lab.  
 Install Jupyter Lab into base environment, if not already by: `conda install -c conda-forge jupyterlab`  
