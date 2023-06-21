@@ -4,12 +4,17 @@ Predict the everchanging of stock prices by fetching historical data straight fr
 ## Replication
 Follow the following steps to set up the virtual environment.
 ### 1. Install requirements
-Anaconda: ```conda env create -f requirements.yml```  
-Python: ```pip list --format=freeze > requirements.txt```  
-To install anaconda, follow the instruction on [here](https://docs.anaconda.com/free/anaconda/install/index.html).
+Clone git repo: `git clone https://github.com/vanmyngo/stock-predictor.git`  
+
+***Either*** to install anaconda, follow the instruction on [here](https://docs.anaconda.com/free/anaconda/install/index.html).  
+Anaconda: `conda env create -f requirements.yml`  
+
+***Or*** execute below command only after create a [virtual environment](https://docs.python.org/3/library/venv.html), preferably.    
+Python: `pip install -r requirements.txt`  
 ### 2.1 Anaconda environment
 You can use Jupyer Lab or Notebook but I'm more familiar with Jupyter Lab.  
-Install Jupyter Lab into base environment, if not already by: ```conda install -c conda-forge jupyterlab```  
+Install Jupyter Lab into base environment, if not already by: `conda install -c conda-forge jupyterlab`  
+
 Add conda environment into Jupyter:   
 ```
 (base)$ conda activate cenv
@@ -17,8 +22,9 @@ Add conda environment into Jupyter:
 (cenv)$ ipython kernel install --user --name=<any_name_for_kernel>
 (cenv)$ conda deactivate
 ```
+
 If ipykernel is already installed, add conda environment to Jupyter in the next step.  
-Open Jupyer Lab: ```(base)$ jupyter lab```  
+Open Jupyer Lab: `(base)$ jupyter lab`  
 Open notebook in Jupyter Lab and select "Run All Cells" in the upper "Run" tab.
 ### 2.2 Python script
 While Jupyter Notebook(.ipynb) can be converted to python script(.py), there are many plots that might not be printed as originally.
